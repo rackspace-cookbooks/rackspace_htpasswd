@@ -18,4 +18,4 @@
 # limitations under the License.
 #
 
-include_recipe "rackspace_htpasswd::#{node['htpasswd']['install_method']}" if node['htpasswd']['install_method']
+include_recipe "rackspace_htpasswd::#{node['rackspace_htpasswd']['install_method']}" if node['rackspace_htpasswd']['install_method']
