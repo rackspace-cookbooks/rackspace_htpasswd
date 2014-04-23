@@ -53,7 +53,7 @@ action :delete do
 end
 
 def load_current_resource
-  include_recipe 'htpasswd::_common'
+  include_recipe 'rackspace_htpasswd::_common'
 
   require 'htauth'
 end
