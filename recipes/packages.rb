@@ -1,3 +1,3 @@
-node['htpasswd']['packages'].each do |pck|
+node['rackspace_htpasswd']['packages'].each do |pck|
   package pck
 end
